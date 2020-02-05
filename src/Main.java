@@ -10,5 +10,7 @@ public class Main {
         System.out.println("rekenmachine");
         System.out.println("3 + 6 = 9");
 
+        System.out.println("shetlander, kwpn'er, belgisch warmboeldig paard");
+
     }
 }
