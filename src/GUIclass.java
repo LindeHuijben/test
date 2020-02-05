@@ -25,14 +25,14 @@ public class GUIclass extends Application {
         primaryStage.setWidth(400);
         primaryStage.setHeight(500);
 
-        Label label = new Label("Address Book");
+        Label label = new Label("Lijst");
         label.setFont(new Font("Arial", 20));
 
-        TableColumn firstNameCol = new TableColumn("First Name");
+        TableColumn firstNameCol = new TableColumn("Klas");
         firstNameCol.setPrefWidth(100);
-        TableColumn lastNameCol = new TableColumn("Last Name");
+        TableColumn lastNameCol = new TableColumn("naam");
         lastNameCol.setPrefWidth(100);
-        TableColumn emailCol = new TableColumn("Email");
+        TableColumn emailCol = new TableColumn("Rooster");
 
         table.getColumns().addAll(firstNameCol, lastNameCol, emailCol);
 
